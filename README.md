@@ -1,112 +1,101 @@
 # SMSContactEye
 
-[فارسی] | [English]
+**[فارسی](#persian)** | **[English](#english)**
 
 ---
 
-## فارسی
+<a name="persian"></a>
+## 🇮🇷 فارسی
 
-### هشدار مهم
-
-> **این ابزار صرفاً برای اهداف آموزشی و تحقیقات امنیتی ساخته شده است.**
+### ⚠️ هشدار مهم
+> این ابزار صرفاً برای اهداف آموزشی و تحقیقات امنیتی ساخته شده است.
 > 
-> استفاده از این نرم‌افزار روی دستگاه دیگران بدون رضایت آگاهانه آنها غیرقانونی است و پیگرد قانونی دارد.
+> استفاده از این نرم‌افزار روی دستگاه دیگران بدون رضایت آگاهانه آنها غیرقانونی است.
 
-### این پروژه چیست
-
-SMSContactEye یک اپلیکیشن اندرویدی است که نحوه عملکرد دسترسی‌های حساس را نشان می‌دهد:
-
+### 🔍 این پروژه چیست
+SMSContactEye یک اپلیکیشن اندرویدی است که:
 - خواندن پیامک‌های دریافتی
 - خواندن لیست مخاطبین دستگاه
 - ارسال خودکار اطلاعات به بات تلگرام
 
-### هدف از ساخت
+### 🎯 هدف از ساخت
+- آشنایی با سیستم مجوزهای اندروید
+- یادگیری کار با BroadcastReceiver
+- آشنایی با API بات تلگرام
+- آگاهی‌بخشی درباره خطرات امنیتی
 
-1. آشنایی با سیستم مجوزهای اندروید
-2. یادگیری کار با BroadcastReceiver در اندروید
-3. آشنایی با API بات تلگرام
-4. آگاهی‌بخشی درباره خطرات امنیتی در دستگاه‌های موبایل
+### ⚙️ نحوه کار
+دستگاه کنترل → دستگاه هدف → بات تلگرام
 
-### نحوه کار
-
-دستگاه کنترل‌کننده → دستگاه هدف → بات تلگرام
-                         ↓
-              پیامک و مخاطبین دریافت می‌شوند
-
-### نصب و استفاده
-
-1. اپلیکیشن را روی دستگاه هدف نصب کنید
-2. دسترسی‌های SMS و Contacts را به آن بدهید
-3. توکن بات تلگرام را در کد تنظیم کنید
+### 📥 نصب و استفاده
+1. اپلیکیشن را نصب کنید
+2. دسترسی‌های SMS و Contacts را بدهید
+3. توکن بات تلگرام را تنظیم کنید
 4. اپلیکیشن را اجرا کنید
 
-**توجه: این مراحل فقط باید روی دستگاه شخصی خودتان انجام شود.**
+> **توجه:** فقط روی دستگاه شخصی خودتان انجام شود.
 
-### سلب مسئولیت
+### ⚖️ سلب مسئولیت
+نویسنده هیچ مسئولیتی در قبال استفاده نادرست یا غیرقانونی ندارد.
 
-نویسنده هیچ گونه مسئولیتی در قبال استفاده نادرست، غیرقانونی یا غیراخلاقی از این نرم‌افزار ندارد. استفاده از این ابزار برای جاسوسی، سرقت اطلاعات یا هر اقدام غیرقانونی دیگر، کاملاً بر عهده کاربر است.
+### 📜 مجوز
+GNU General Public License v3.0
 
-### مجوز
-
-این پروژه تحت مجوز GNU General Public License v3.0 منتشر شده است.
-
-### ارتباط با من
-
-- پست الکترونیک: zankodesec@gmail.com
+### 📧 ارتباط با من
+- ایمیل: zankodesec@gmail.com
 - وبسایت: zankode.ir
 
 ---
 
-## English
+**[▲ برگشت به بالا](#top)**
 
-### Important Warning
+---
 
-> **This tool is for educational and security research purposes only.**
+<a name="english"></a>
+## 🇬🇧 English
+
+### ⚠️ Important Warning
+> This tool is for educational and security research purposes only.
 > 
-> Using this software on any device without explicit consent is illegal and prosecutable.
+> Using this software on any device without explicit consent is illegal.
 
-### What is this project
+### 🔍 What is this project
+SMSContactEye is an Android app that:
+- Reads incoming SMS messages
+- Reads device contacts
+- Forwards data to a Telegram bot
 
-SMSContactEye is an Android application that demonstrates how sensitive permissions work:
+### 🎯 Purpose
+- Understand Android permission system
+- Learn BroadcastReceiver implementation
+- Explore Telegram Bot API
+- Raise security awareness
 
-- Reading incoming SMS messages
-- Reading device contacts
-- Forwarding captured data to a Telegram bot
+### ⚙️ How it works
+Controller → Target Device → Telegram Bot
 
-### Purpose
-
-1. Understand Android permission system
-2. Learn Android BroadcastReceiver implementation
-3. Explore Telegram Bot API
-4. Raise awareness about mobile security risks
-
-### How it works
-
-Controller Device → Target Device → Telegram Bot
-                              ↓
-                   SMS & Contacts are captured
-
-### Installation
-
-1. Install the APK on the target device
-2. Grant SMS and Contacts permissions
-3. Set your Telegram bot token in the code
+### 📥 Installation
+1. Install the APK
+2. Grant SMS & Contacts permissions
+3. Set your Telegram bot token
 4. Run the application
 
-**Note: These steps should only be performed on your own device.**
+> **Note:** Only perform these steps on your own device.
 
-### Disclaimer
+### ⚖️ Disclaimer
+The author assumes no responsibility for any misuse or illegal activity.
 
-The author assumes no responsibility for any misuse, illegal activity, or unethical use of this software. Using this tool for spying, data theft, or any illegal action is solely the responsibility of the user.
+### 📜 License
+GNU General Public License v3.0
 
-### License
-
-This project is released under GNU General Public License v3.0.
-
-### Contact
-
+### 📧 Contact
 - Email: zankodesec@gmail.com
 - Website: zankode.ir
+
+---
+
+**[▲ Back to top](#top)**
+
 ---
 
 Made for cybersecurity education | zankode
