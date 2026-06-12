@@ -39,7 +39,7 @@ SMSContactEye یک اپلیکیشن اندرویدی است که نحوه دست
 برای ساخت بات، مراحل زیر را انجام دهید:
 
 1. اپلیکیشن تلگرام را باز کنید
-2. به بات **@BotFather** پیام دهید
+2. به بات [@BotFather](https://t.me/BotFather) پیام دهید
 3. دستور `/newbot` را بفرستید
 4. یک نام برای بات خود انتخاب کنید
 5. یک یوزرنیم که به `bot` ختم شود انتخاب کنید
@@ -49,7 +49,7 @@ SMSContactEye یک اپلیکیشن اندرویدی است که نحوه دست
 
 برای گرفتن آیدی عددی خود:
 
-1. به بات **@userinfobot** پیام دهید
+1. به بات [@userinfobot](https://t.me/userinfobot) پیام دهید
 2. بات به شما آیدی عددی شما را نشان می‌دهد
 3. آن را کپی کنید
 
@@ -75,7 +75,11 @@ GNU General Public License v3.0
 
 ### ارتباط با من
 
-ایمیل: zankodesec@gmail.com     |     وبسایت: zankode.ir     |     تلگرام: @zankode
+[ایمیل: zankodesec@gmail.com](mailto:zankodesec@gmail.com)
+
+[وبسایت: zankode.ir](https://zankode.ir)
+
+[تلگرام: @zankode](https://t.me/zankode)
 
 [بازگشت به بالا]
 
@@ -114,7 +118,7 @@ The settings panel will open. Here you can enter your Telegram bot token and use
 ### Creating a Telegram bot
 
 1. Open Telegram
-2. Message **@BotFather**
+2. Message [@BotFather](https://t.me/BotFather)
 3. Send `/newbot`
 4. Choose a name for your bot
 5. Choose a username ending with `bot`
@@ -122,7 +126,7 @@ The settings panel will open. Here you can enter your Telegram bot token and use
 
 ### Getting your user ID
 
-1. Message **@userinfobot**
+1. Message [@userinfobot](https://t.me/userinfobot)
 2. The bot will show your numeric user ID
 3. Copy it
 
@@ -148,7 +152,11 @@ GNU General Public License v3.0
 
 ### Contact
 
-Email: zankodesec@gmail.com     |     Website: zankode.ir     |     Telegram: @zankode
+[Email: zankodesec@gmail.com](mailto:zankodesec@gmail.com)
+
+[Website: zankode.ir](https://zankode.ir)
+
+[Telegram: @zankode](https://t.me/zankode)
 
 [Back to top]
 
