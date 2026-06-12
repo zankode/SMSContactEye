@@ -1,100 +1,132 @@
 # SMSContactEye
 
-**[فارسی](#persian)** | **[English](#english)**
+[فارسی](#persian) | [English](#english)
 
 ---
 
 <a name="persian"></a>
-## 🇮🇷 فارسی
+## فارسی
 
-### ⚠️ هشدار مهم
-> این ابزار صرفاً برای اهداف آموزشی و تحقیقات امنیتی ساخته شده است.
+### 🆘 هشدار فوق‌العاده مهم 🆘
+
+> این ابزار فقط برای اهداف آموزشی و تحقیقات امنیتی ساخته شده است.
 > 
-> استفاده از این نرم‌افزار روی دستگاه دیگران بدون رضایت آگاهانه آنها غیرقانونی است.
+> ❌ استفاده از این نرم‌افزار روی دستگاه دیگران بدون اجازه آنها **غیرقانونی** است ❌
+> 
+> 🚫 در صورت استفاده غیرمجاز، پیگرد قانونی دارید 🚫
 
-### 🔍 این پروژه چیست
-SMSContactEye یک اپلیکیشن اندرویدی است که:
+### این پروژه چکار می‌کند
+
+SMSContactEye یک اپلیکیشن اندرویدی است که سه کار اصلی انجام می‌دهد:
+
 - خواندن پیامک‌های دریافتی
 - خواندن لیست مخاطبین دستگاه
-- ارسال خودکار اطلاعات به بات تلگرام
+- ارسال خودکار این اطلاعات به یک بات تلگرام
 
-### 🎯 هدف از ساخت
-- آشنایی با سیستم مجوزهای اندروید
+### چرا این پروژه را ساختم
+
+برای یادگیری چند چیز:
+
+- آشنایی با نحوه کار مجوزهای اندروید
 - یادگیری کار با BroadcastReceiver
 - آشنایی با API بات تلگرام
-- آگاهی‌بخشی درباره خطرات امنیتی
+- نشان دادن خطرات امنیتی که ممکن است کاربران با آن مواجه شوند
 
-### ⚙️ نحوه کار
-دستگاه کنترل → دستگاه هدف → بات تلگرام
+### روش کار
 
-### 📥 نصب و استفاده
-1. اپلیکیشن را نصب کنید
-2. دسترسی‌های SMS و Contacts را بدهید
-3. توکن بات تلگرام را تنظیم کنید
+دستگاه شما (کنترل) -> دستگاه هدف -> بات تلگرام
+
+اطلاعات پیامک و مخاطبین از دستگاه هدف گرفته شده و به بات تلگرام فرستاده می‌شود.
+
+### نصب و استفاده
+
+1. فایل APK را روی دستگاه نصب کنید
+2. به اپلیکیشن دسترسی پیامک و مخاطبین بدهید
+3. توکن بات تلگرام خود را در کد قرار دهید
 4. اپلیکیشن را اجرا کنید
 
-> **توجه:** فقط روی دستگاه شخصی خودتان انجام شود.
+### ⚠️ توجه شدیدا مهم ⚠️
 
-### ⚖️ سلب مسئولیت
-نویسنده هیچ مسئولیتی در قبال استفاده نادرست یا غیرقانونی ندارد.
+❌ این مراحل را فقط روی دستگاه شخصی خودتان انجام دهید ❌
+❌ هیچ وقت روی دستگاه دیگران بدون اجازه نصب نکنید ❌
 
-### 📜 مجوز
-GNU General Public License v3.0
+### سلب مسئولیت
 
-### 📧 ارتباط با من
-- ایمیل: zankodesec@gmail.com
-- وبسایت: zankode.ir
+نویسنده هیچ مسئولیتی در قبال استفاده نادرست یا غیرقانونی از این نرم‌افزار ندارد. هر کس از این ابزار استفاده می‌کند، خودش پاسخگوی کارش است.
 
----
+### مجوز
 
-**[▲ برگشت به بالا](#top)**
+این پروژه تحت مجوز GNU General Public License version 3 منتشر شده است.
+
+### ارتباط
+
+ایمیل: zankodesec@gmail.com
+وبسایت: zankode.ir
+
+[بازگشت به بالا]
 
 ---
 
 <a name="english"></a>
-## 🇬🇧 English
+## English
 
-### ⚠️ Important Warning
-> This tool is for educational and security research purposes only.
+### 🆘 CRITICAL WARNING 🆘
+
+> This tool is made for educational and security research purposes only.
 > 
-> Using this software on any device without explicit consent is illegal.
+> ❌ Using this software on someone else's device without permission is **ILLEGAL** ❌
+> 
+> 🚫 Legal action will be taken against unauthorized use 🚫
 
-### 🔍 What is this project
-SMSContactEye is an Android app that:
+### What this project does
+
+SMSContactEye is an Android application that does three things:
+
 - Reads incoming SMS messages
 - Reads device contacts
-- Forwards data to a Telegram bot
+- Sends the captured data to a Telegram bot
 
-### 🎯 Purpose
-- Understand Android permission system
-- Learn BroadcastReceiver implementation
-- Explore Telegram Bot API
-- Raise security awareness
+### Why I built this
 
-### ⚙️ How it works
-Controller → Target Device → Telegram Bot
+To learn a few things:
 
-### 📥 Installation
-1. Install the APK
-2. Grant SMS & Contacts permissions
-3. Set your Telegram bot token
+- How Android permissions work
+- How to work with BroadcastReceiver
+- How Telegram Bot API works
+- To show what security risks users might face
+
+### How it works
+
+Your Device (Controller) -> Target Device -> Telegram Bot
+
+SMS and contact information is captured from the target device and sent to a Telegram bot.
+
+### Installation
+
+1. Install the APK on the device
+2. Grant SMS and Contacts permissions to the app
+3. Put your Telegram bot token in the code
 4. Run the application
 
-> **Note:** Only perform these steps on your own device.
+### ⚠️ VERY IMPORTANT NOTE ⚠️
 
-### ⚖️ Disclaimer
-The author assumes no responsibility for any misuse or illegal activity.
+❌ Only do these steps on your own device ❌
+❌ Never install on someone else's device without permission ❌
 
-### 📜 License
-GNU General Public License v3.0
+### Disclaimer
 
-### 📧 Contact
-- Email: zankodesec@gmail.com
-- Website: zankode.ir
+The author takes no responsibility for any misuse or illegal use of this software. Anyone who uses this tool is responsible for their own actions.
 
----
+### License
 
-**[▲ Back to top](#top)**
+This project is released under GNU General Public License version 3.
+
+### Contact
+
+Email: zankodesec@gmail.com
+Website: zankode.ir
+
+[Back to top]
 
 ---
 
