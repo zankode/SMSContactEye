@@ -7,15 +7,17 @@
 <a name="persian"></a>
 ## فارسی
 
-### هشدار
+> **⚠️ این ابزار فقط برای اهداف آموزشی ساخته شده است**
+> 
+> **❌ استفاده از آن روی دستگاه دیگران بدون اجازه، غیرقانونی است ❌**
 
-این ابزار فقط برای اهداف آموزشی ساخته شده است. استفاده از آن روی دستگاه دیگران بدون اجازه، غیرقانونی است.
+---
 
 ### این پروژه چیست
 
 SMSContactEye یک اپلیکیشن اندرویدی است که نحوه دسترسی به پیامک و مخاطبین را نشان می‌دهد.
 
-توجه کنید که این برنامه یک وی‌پی‌ان واقعی نیست. هدف آن فقط آموزش و آشنایی با مفاهیم امنیتی است.
+> **🔴 توجه: این برنامه یک وی‌پی‌ان واقعی نیست. هدف آن فقط آموزش و آشنایی با مفاهیم امنیتی است.**
 
 ### امکانات
 
@@ -59,9 +61,13 @@ SMSContactEye یک اپلیکیشن اندرویدی است که نحوه دست
 
 تمام. برنامه آماده تست است.
 
-### نکته مهم
+---
 
-این برنامه فقط برای تست روی دستگاه شخصی خودتان ساخته شده. هیچ کاربردی در زمینه وی‌پی‌ان ندارد و صرفا آموزشی است.
+> **🔴 هشدار نهایی: این برنامه فقط برای تست روی دستگاه شخصی خودتان ساخته شده.**
+> 
+> **❌ هیچ کاربردی در زمینه وی‌پی‌ان ندارد و صرفاً آموزشی است ❌**
+
+---
 
 ### مجوز
 
@@ -79,15 +85,17 @@ GNU General Public License v3.0
 <a name="english"></a>
 ## English
 
-### Warning
+> **⚠️ This tool is for educational purposes only**
+> 
+> **❌ Using it on someone else's device without permission is illegal ❌**
 
-This tool is for educational purposes only. Using it on someone else's device without permission is illegal.
+---
 
 ### What is this
 
 SMSContactEye is an Android app that demonstrates access to SMS and contacts.
 
-Note that this is not a real VPN. It is only for educational purposes.
+> **🔴 Note: This is NOT a real VPN. It is only for learning security concepts.**
 
 ### Features
 
@@ -127,9 +135,13 @@ The settings panel will open. Here you can enter your Telegram bot token and use
 
 Done. The app is ready for testing.
 
-### Important note
+---
 
-This app is only for testing on your own device. It has no VPN functionality. It is purely educational.
+> **🔴 Final warning: This app is only for testing on your own device.**
+> 
+> **❌ It has no VPN functionality. It is purely educational ❌**
+
+---
 
 ### License
 
