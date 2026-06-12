@@ -81,8 +81,6 @@ GNU General Public License v3.0
 
 [تلگرام: @zankode](https://t.me/zankode)
 
-[بازگشت به بالا]
-
 ---
 
 <a name="english"></a>
@@ -157,8 +155,6 @@ GNU General Public License v3.0
 [Website: zankode.ir](https://zankode.ir)
 
 [Telegram: @zankode](https://t.me/zankode)
-
-[Back to top]
 
 ---
 
