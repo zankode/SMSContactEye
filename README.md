@@ -73,10 +73,9 @@ SMSContactEye یک اپلیکیشن اندرویدی است که نحوه دست
 
 GNU General Public License v3.0
 
-### ارتباط
+### ارتباط با من
 
-ایمیل: zankodesec@gmail.com
-وبسایت: zankode.ir
+ایمیل: zankodesec@gmail.com     |     وبسایت: zankode.ir     |     تلگرام: @zankode
 
 [بازگشت به بالا]
 
@@ -149,8 +148,7 @@ GNU General Public License v3.0
 
 ### Contact
 
-Email: zankodesec@gmail.com
-Website: zankode.ir
+Email: zankodesec@gmail.com     |     Website: zankode.ir     |     Telegram: @zankode
 
 [Back to top]
 
